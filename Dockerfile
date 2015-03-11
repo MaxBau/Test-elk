@@ -32,7 +32,7 @@ mv elasticsearch-1.3.1 elasticsearch
 RUN wget https://download.elasticsearch.org/logstash/logstash/logstash-1.4.2.tar.gz && \
 tar xf logstash-1.4.2.tar.gz && \
 rm logstash-1.4.2.tar.gz && \
-mv logstash-1.4.2 logstash && \
+mv logstash-1.4.2 logstash
 ADD ./logstash.conf /
 
 # Kibana installation
